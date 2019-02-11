@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Adamina');
+@import url('https://fonts.googleapis.com/css?family=Andada');
+@import url('https://fonts.googleapis.com/css?family=Battambang');
+@import url('https://fonts.googleapis.com/css?family=Bokor');
+
+header {
+   padding-bottom: 20px;
+}
+
+footer{
+  min-height: 5vh;
+  text-align: center;
+}
+
+body{
+    background-image: url("../images/gray-solid-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+}
+nav{
+  margin-left: 220px;
+  margin-right: 220px;
+  display: flex;
+  justify-content: center;
+}
+
+nav a{
+  color: #E75480;
+  text-decoration: none;
+  font-family: 'Adamina';
+  font-size: 20px;
+  text-align: center;
+}
+
+a.current{
+  color:black;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 30px;
+  font-family: 'Andana'
+}
+
+h3{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Battambang';
+}
+
+h2{
+  font-family: 'Bokora';
+  font-size: 27px;
+}
+.country{
+  color: #800000;
+}
+
+a.skip{
+  position:relative;
+  left: -350px;
+}
+
+a.skip:focus{
+  left: 10px;
+  border: 2px solid black;
+}
+
+.italyimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.homepage {
+  text-align: center;
+}
+
+
+.post-thumb{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.post-title {
+    font-weight: bold;
+    font-size: 200%
+}
+
+.worldmap {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 25%;
+}
+
+
+
+div{
+  display:inline-block;
+  text-align:center;
+}
+
+.container-image img{
+  width: 70vh;
+  display: flex;
+  flex-flow: nowrap;
+  align-content: center;
+  align-self: center;
+  object-fit: flex-start;
+  margin: 20px;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: block;
+}
+
+.contactinfo {
+  display: block;
+}
+
+@media (max-width: 980px){
+  .nav a{
+    padding: 15px;
+    font-family: 'Adamina';
+    font-size: 44px;
+    border-bottom: 1px;
+    border-top: 1px;
+    width: 200px;
+  }
+
+  div.container-image{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  body{
+    background-image: url("../images/gray-solid-background.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+  }
+
+  .container-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 100px;
+    font-size: 44px;
+    display: block;
+  }
+
+.container-form input, textarea{
+  padding: 40px;
+  font-size: 40px;
+}
+
+  .contactinfo {
+    display: block;
+  }
+  div, p{
+    font-size: 30px;
+  }
+
+  h3{
+    font-size:44px;
+  }
+}
